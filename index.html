@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Playfair+Display:wght@400..900&display=swap"
+        rel="stylesheet">
+    <title>Trattoria Cacttus</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animations.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo-container">
+                <svg class="logo" fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4 4H17.3334V17.3334H30.6666V30.6666H44V44H4V4Z" fill="currentColor"></path>
+                </svg>
+                <h1 class="title">Trattoria Cacttus</h1>
+            </div>
+            <nav>
+
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#localizacao">Localização</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                    <li><a href="#" class="reservar-btn">Reservar Mesa</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" aria-label="Abrir menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="banner reveal">
+                <div class="text_banner">
+                    <h2>
+                        Trattoria Cacttus:
+                        <br>
+                        A fusão perfeita entre a Itália e o Nordeste
+                    </h2>
+                    <p>
+                        Massas artesanais, sabores marcantes e uma experiência única no Cariri.
+                    </p>
+                </div>
+                <div class="btn_banner">
+                    <a href="#" class="btn-reservar">Reservar Mesa</a>
+                    <a href="#" class="btn-menu">Ver Menu</a>
+                </div>
+            </section>
+
+            <section class="hero" id="sobre">
+                <div class="text_section reveal reveal-up">
+                    <h3>
+                        A alma da Itália com o tempero do Sertão
+                    </h3>
+                    <p class="subtitle">
+                        Nossa paixão é unir a tradição e a criatividade, combinando técnicas clássicas da culinária
+                        italiana
+                        com os ingredientes frescos e autênticos do Nordeste, criando uma experiência gastronômica
+                        inesquecível.
+                    </p>
+                </div>
+                <div class="cards_hero">
+                    <div class="card_hero reveal reveal-up delay-1">
+                        <span class="material-symbols-outlined">
+                            ramen_dining
+                        </span>
+                        <h4>Massas Artesanais</h4>
+                        <p>Feitas diariamente em nossa casa.</p>
+                    </div>
+                    <div class="card_hero reveal reveal-up delay-2">
+                        <span class="material-symbols-outlined">
+                            set_meal
+                        </span>
+                        <h4>Frutos do Mar Frescos</h4>
+                        <p>Selecionados dos melhores fornecedores.</p>
+                    </div>
+                    <div class="card_hero reveal reveal-up delay-3">
+                        <span class="material-symbols-outlined">
+                            eco
+                        </span>
+                        <h4>Ingredientes Locais</h4>
+                        <p>Valorizamos os produtores da nossa região.</p>
+                    </div>
+                    <div class="card_hero reveal reveal-up delay-4">
+                        <span class="material-symbols-outlined">
+                            restaurant
+                        </span>
+                        <h4>Experiência Autoral</h4>
+                        <p>Pratos criados com paixão pelo nosso chef.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="highlights" id="menu">
+                <div class="text_section reveal reveal-up">
+                    <h3>
+                        Destaques do nosso Menu
+                    </h3>
+                    <p class="subtitle">
+                        Uma amostra dos sabores que esperam por você. Cada prato é uma celebração da nossa fusão única.
+                    </p>
+                </div>
+                <div class="carousel">
+                    <div class="cards_highlights">
+                        <div class="card_highlights reveal reveal-left delay-1">
+                            <img src="assets/Bruschetta.png" alt="">
+                            <h4>Bruschetta Sertaneja</h4>
+                            <p>Pão italiano tostado com queijo coalho, tomate fresco e manjericão.</p>
+                        </div>
+                        <div class="card_highlights reveal reveal-left delay-2">
+                            <img src="assets/Spaghetti.png" alt="">
+                            <h4>Spaghetti ao Vôngole com Coentro</h4>
+                            <p>Massa fresca com frutos do mar e um toque refrescante de coentro.</p>
+                        </div>
+                        <div class="card_highlights reveal reveal-left delay-3">
+                            <img src="assets/Gnocchi.png" alt="">
+                            <h4>Gnocchi de Macaxeira ao Ragu</h4>
+                            <p>Nhoque macio de macaxeira com um rico ragu de cordeiro.</p>
+                        </div>
+                        <div class="card_highlights reveal reveal-left delay-4">
+                            <img src="assets/Pescada.png" alt="">
+                            <h4>Pescada Amarela na Crosta</h4>
+                            <p>Peixe fresco com crosta de castanhas, servido com purê de jerimum.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-dots"></div>
+                </div>
+            </section>
+
+            <section class="location" id="localizacao">
+                <img src="assets/maps.png" alt="" class="reveal reveal-left">
+                <div class="text_location reveal reveal-right">
+                    <h3 class="title_location">Nosso Canto no Cariri</h3>
+                    <div class="address">
+                        <div class="address_location">
+                            <span class="material-symbols-outlined">
+                                location_on
+                            </span>
+                            <p>Rua das Acácias, 123 - Centro, Juazeiro do Norte - CE</p>
+                        </div>
+                        <div class="address_location">
+                            <span class="material-symbols-outlined">
+                                calendar_month
+                            </span>
+                            <p>Jantar – Sexta e Sábado</p>
+                        </div>
+                        <div class="address_location">
+                            <span class="material-symbols-outlined">
+                                schedule
+                            </span>
+                            <p>Horário: 18h às 23h</p>
+                        </div>
+                    </div>
+                    <button class="btn-location">Ver rota no Google Maps</button>
+                </div>
+            </section>
+
+            <section class="gallery" id="galeria">
+                <h3 class="reveal reveal-up">Um Pouco do Nosso Ambiente</h3>
+                <div class="photos_gallery">
+                    <div class="grid_gallery reveal reveal-up delay-1">
+                        <div class="img_box">
+                            <img class="img_gallery img1" src="assets/gallery1.png" alt="">
+                        </div>
+                        <div class="img_box">
+                            <img class="img_gallery img5" src="assets/gallery5.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="grid_gallery reveal reveal-up delay-2">
+                        <div class="img_box">
+                            <img class="img_gallery img2" src="assets/gallery2.png" alt="">
+                        </div>
+                        <div class="img_box">
+                            <img class="img_gallery img6" src="assets/gallery6.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="grid_gallery reveal reveal-up delay-3">
+                        <div class="img_box">
+                            <img class="img_gallery img3" src="assets/gallery3.png" alt="">
+                        </div>
+                        <div class="img_box">
+                            <img class="img_gallery img7" src="assets/gallery7.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="grid_gallery reveal reveal-up delay-4">
+                        <div class="img_box">
+                            <img class="img_gallery img4" src="assets/gallery4.png" alt="">
+                        </div>
+                        <div class="img_box">
+                            <img class="img_gallery img8" src="assets/gallery8.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="feedbacks" id="avaliacoes">
+                <h3 class="reveal reveal-up">O que nossos clientes dizem</h3>
+                <div class="cards_feedbacks">
+                    <div class="card reveal reveal-right delay-1">
+                        <div class="stars">
+                            <span class="material-symbols-outlined">
+                                star
+                            </span><span class="material-symbols-outlined">
+                                star
+                            </span><span class="material-symbols-outlined">
+                                star
+                            </span><span class="material-symbols-outlined">
+                                star
+                            </span><span class="material-symbols-outlined">
+                                star
+                            </span>
+                        </div>
+                        <p>"Uma experiência culinária inesquecível! A mistura de sabores é surpreendente e deliciosa.
+                            Voltarei com certeza."</p>
+                        <p><b>Joana Silva</b></p>
+                    </div>
+                    <div class="card reveal reveal-right delay-2">
+                        <div class="stars">
+                            <span class="material-symbols-outlined">
+                                star
+                            </span><span class="material-symbols-outlined">
+                                star
+                            </span><span class="material-symbols-outlined">
+                                star
+                            </span><span class="material-symbols-outlined">
+                                star
+                            </span><span class="material-symbols-outlined">
+                                star
+                            </span>
+                        </div>
+                        <p>"O ambiente é tão aconchegante quanto os pratos são saborosos. A melhor massa que já comi no
+                            Ceará."</p>
+                        <p><b>Marcos Pereira</b></p>
+                    </div>
+                    <div class="card reveal reveal-right delay-3">
+                        <div class="stars">
+                            <span class="material-symbols-outlined">
+                                star
+                            </span><span class="material-symbols-outlined">
+                                star
+                            </span><span class="material-symbols-outlined">
+                                star
+                            </span><span class="material-symbols-outlined">
+                                star
+                            </span><span class="material-symbols-outlined">
+                                star
+                            </span>
+                        </div>
+                        <p>"Cada detalhe, da decoração ao prato, mostra o carinho e a qualidade. Atendimento impecável.
+                            Recomendo!"</p>
+                        <p><b>Carolina Andrade</b></p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="banner_footer reveal reveal-up">
+                <h3 class="text_footer">Reserve sua experiência gastronômica</h3>
+                <button class="btn_reserva_footer">Quero Reservar Agora</button>
+            </section>
+        </div>
+    </main>
+
+
+    <footer>
+        <div class="container">
+            <div class="section_footer">
+                <div class="section_footer_1">
+                    <div class="logo-container">
+                        <svg class="logo" fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4 4H17.3334V17.3334H30.6666V30.6666H44V44H4V4Z" fill="currentColor"></path>
+                        </svg>
+                        <h1 class="title">Trattoria Cacttus</h1>
+                    </div>
+                    <p>A fusão perfeita entre a Itália e o Nordeste.</p>
+                </div>
+
+                <div class="section_footer_2">
+                    <p class="title_footer">Contato</p>
+                    <div>
+                        <a href="mailto:contato@trattoriacacttus.com">contato@trattoriacacttus.com</a>
+                        <a href="#">(88) 99999-8888 (WhatsApp)</a>
+                        <a href="#">Rua das Acácias, 123 - Centro, Juazeiro do Norte - CE</a>
+                    </div>
+                </div>
+
+                <div class="section_footer_3">
+                    <p class="title_footer">Siga-nos</p>
+                    <div class="social_footer">
+                        <a href="#">
+                            <img class="social_icon" width="30" height="30"
+                                src="https://img.icons8.com/glyph-neue/50/946851/instagram-new--v1.png"
+                                alt="instagram-new--v1" />
+                        </a>
+                        <a href="#">
+                            <img class="social_icon" width="28" height="28"
+                                src="https://img.icons8.com/ios-filled/48/946851/facebook-new.png" alt="facebook-new" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div>
+                <p class="copy">&copy; 2024 Trattoria do Sertão. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="scripts.js"></script>
+
+</html>
